@@ -59,3 +59,23 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  .MockStatsTable_statsTable__2edDg table {
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-color: #ebe9e7;
+    border-spacing: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: var(--border-muted);
+    font-size: 13px;
+    font-feature-settings: ;
+    font-variant: proportional-width;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
