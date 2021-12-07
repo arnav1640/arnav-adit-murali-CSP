@@ -1,10 +1,61 @@
 html{
-    background-color: rgba(0, 68, 255, 0.671);
+    background-color: white
 }
 
 h1 {
-    text-align: center;
+    position: relative;
+    left: 440px ;
     font-family: Trebuchet MS;
     color: rgb(61, 37, 48)
 
 }
+
+img{
+    position: relative;
+    border: 5px solid #555;
+    
+
+}
+
+.image{
+    position: relative;
+    left: 90px;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    border-radius: 15px;
+  
+  
+  
+  }
+  
+  li {
+    float: left;
+  
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Trebuchet MS;
+    font-size: 20px
+  
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
