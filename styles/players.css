@@ -1,12 +1,39 @@
-.label{
-    font-family: Trebuchet MS;
-}
-
 ul {
-    list-style-type : none;
-}
-
-html {
-    background-color : wheat;
-}
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    border-radius: 15px;
+  
+  
+  
+  }
+  
+  li {
+    float: left;
+  
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+  
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  html {
+    background-color: rgb(179, 166, 136)
+  }
