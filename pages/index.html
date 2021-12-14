@@ -9,12 +9,28 @@
 </head>
 <body>
     <ul class="navbar">
-        <li><a href="about.asp">🔎</a></li>
+        <form action="search.php" method="GET">
+            <input name="query" id="search" type="text" placeholder="Search database..." style="float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;">
+            <input id="Search" type="submit" value="Search" style="float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;">
+          </form>
         <li><a href="../pages/index.html">Home</a></li>
+        <li><a href="teams.php">Teams</a></li>
         <li><a href="players.php">Players</a></li>
         <li><a href="standings.html">Standings</a></li>
         
       </ul>
+
+      
     <h1>All Active NBA Franchises</h1>
     <div class="image"><img src="../assets/teamlist.png"></div>
 </body>
