@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #489FC4">
+<html lang="en" style="background-image: url('https://d31sxl6qgne2yj.cloudfront.net/wordpress/wp-content/uploads/20200722153129/Chicago-Bulls-22-thumb.jpg');">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
