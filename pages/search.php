@@ -20,21 +20,34 @@
 
         // echo "database connected";
     $query = mysqli_real_escape_string($db, $_GET['query']);
-    $sql = "SELECT id, name, team FROM players WHERE name LIKE '%$query%'";
+    $sql = "SELECT * FROM players WHERE name LIKE '%$query%'";
     $result = $db->query($sql); ?>
 
+    <h1 style="font-family: Trebuchet Ms; position: absolute; left: 17px">Stats for: "<?php echo $query?>"</h1>
+    <table style="height:20vh;width:97vw; position: relative; top: 100px; bottom: 0; left: 0; right: 0;border:6px double black; border-radius: 10px">
+            <tr style="font-size: 25px; text-align: left; outline: 3px groove; font-family: Trebuchet MS">
+                <th>Player Name</th>
+                <th>Team</th>
+                <th>Pos</th>
+                <th>PPG</th>
+                <th>2P%</th>
+                <th>3P%</th>
 
-    <?php if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) { ?>
-        
-        <p style="font-family: Trebuchet MS; position: relative; top: 50px; left: 100px"> <?php echo $row["name"]. "<br>"; ?> </p>
-        
-    <?php }
-    } else {
-    echo "0 results";
-    }
-    $db->close(); ?>
+            </tr>
+            <?php 
+                if($result -> num_rows > 0){
+                    while($row = $result->fetch_assoc()) { ?>
+                    <tr class="data" style="outline: 1px solid gray; font-family: Trebuchet MS;>
+                    <td><?php echo $row['name'];?></td>
+                        <td><?php echo $row['team'];?></td>
+                        <td><?php echo $row['position'];?></td>
+                        <td><?php echo $row['PPG'];?></td>
+                        <td><?php echo $row['2P%'];?></td>
+                        <td><?php echo $row['3P%'];?></td>
+                    </tr>
+                 <?php   }
+                } ?>
+        </table>
     
 
 
