@@ -23,8 +23,8 @@
     $sql = "SELECT * FROM players WHERE name LIKE '%$query%'";
     $result = $db->query($sql); ?>
 
-    <h1 style="font-family: Trebuchet Ms; position: absolute; left: 17px">Stats for: "<?php echo $query?>"</h1>
-    <table style="height:20vh;width:97vw; position: relative; top: 100px; bottom: 0; left: 0; right: 0;border:6px double black; border-radius: 10px">
+    <h1 style="font-family: Trebuchet Ms; position: absolute; left: 17px; background-color: white">Stats for: "<?php echo $query?>"</h1>
+    <table style="height:20vh;width:97vw; position: relative; top: 100px; bottom: 0; left: 0; right: 0;border:6px double black; border-radius: 10px; background-color: ghostwhite;">
             <tr style="font-size: 25px; text-align: left; outline: 3px groove; font-family: Trebuchet MS">
                 <th>Player Name</th>
                 <th>Team</th>
