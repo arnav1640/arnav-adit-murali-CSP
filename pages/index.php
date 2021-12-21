@@ -8,13 +8,11 @@
     <link rel="stylesheet" type="text/css" href = "../styles/teams.css">
 </head>
 <body>
-    <ul class="navbar">
-        <li><a href="about.asp">🔎</a></li>
-        <li><a href="../pages/index.html">Home</a></li>
-        <li><a href="players.php">Players</a></li>
-        <li><a href="standings.html">Standings</a></li>
-        
-      </ul>
+<?php 
+    include_once 'navbar.html'
+    ?>
+
+      
     <h1>All Active NBA Franchises</h1>
     <div class="image"><img src="../assets/teamlist.png"></div>
 </body>

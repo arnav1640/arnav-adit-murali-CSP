@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(../assets/whitebackground.jpg);">
+<html lang="en" style="background-color: 181, 136, 158;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,10 @@
     <title>Players</title>
 </head>
 <body>
-    <ul>
-        <li><a href="about.asp">🔎</a></li>
-        <li><a href="../pages/index.html">Home</a></li>
-        <li><a href="players.php">Players</a></li>
-        <li><a href="standings.html">Standings</a></li>
-        
-      </ul>
+
+<?php 
+    include_once 'navbar.html'
+    ?>
     <?php
     ?>
     <?php
