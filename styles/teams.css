@@ -14,12 +14,12 @@ img{
     position: relative;
     border: 5px solid #555;
     
+    
 
 }
 
 .image{
-    position: relative;
-    left: 90px;
+    border-radius: 15px;
     
 
 }
