@@ -43,7 +43,7 @@
             <?php 
                 if($result -> num_rows > 0){
                     while($row = $result->fetch_assoc()) { ?>
-                    <tr class="data" style="outline: 1px dashed gray; font-family: Trebuchet MS">
+                    <tr class="data" style="outline: 1px ridge gray; font-family: Trebuchet MS">
                         <td><?php echo $row['name'];?></td>
                         <td><?php echo $row['team'];?></td>
                         <td><?php echo $row['position'];?></td>
